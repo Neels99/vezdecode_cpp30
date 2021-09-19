@@ -1,13 +1,21 @@
 # vezdecode_cpp30
 Решение задания Вездекод C++30
 # Install and run
+
 ```
-sudo apt install libcurl4-openssl-dev
+apt update
+apt install git
+apt install cmake
+apt install build-essential
+apt install libcurl4-openssl-dev
+git clone https://github.com/Neels99/vezdecode_cpp30.git
+cd vezdecode_cpp30
 mkdir build
 cd build
 cmake ..
 cmake --build .
 ./vezde30
+
 ```
 
 # Дополнительное задание
